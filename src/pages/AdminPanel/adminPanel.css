@@ -1,0 +1,75 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+   justify-content: baseline;
+    /* background: linear-gradient(
+	rgba(255,255,255,0.5),
+	rgba(255,255,255,0.5)
+),
+url("https://i.ibb.co/djTG78v/login.jpg"); */
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.userButton{
+    margin-top: 5px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.statusButton{
+    margin-top: 5px;
+    background-color: skyblue;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    width: 150px;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.linkClass{
+    text-decoration: none;
+    color: white;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.userDetails{
+    display: flex;
+    flex-direction: row;
+}
